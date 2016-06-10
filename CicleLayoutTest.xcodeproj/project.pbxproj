@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8131C7821D0A45CC009CE8D2 /* iWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8131C7811D0A45CC009CE8D2 /* iWatch.png */; };
 		819484E91D08F27000169042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 819484E81D08F27000169042 /* main.m */; };
 		819484EC1D08F27000169042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 819484EB1D08F27000169042 /* AppDelegate.m */; };
 		819484EF1D08F27000169042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819484EE1D08F27000169042 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		819484F41D08F27000169042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819484F31D08F27000169042 /* Assets.xcassets */; };
 		819484F71D08F27000169042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819484F51D08F27000169042 /* LaunchScreen.storyboard */; };
 		819485021D08F27000169042 /* CicleLayoutTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 819485011D08F27000169042 /* CicleLayoutTestTests.m */; };
+		819485131D0900A200169042 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 819485121D0900A200169042 /* CircleLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8131C7811D0A45CC009CE8D2 /* iWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iWatch.png; sourceTree = "<group>"; };
 		819484E41D08F27000169042 /* CicleLayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicleLayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819484E81D08F27000169042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		819484EA1D08F27000169042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +43,8 @@
 		819484FD1D08F27000169042 /* CicleLayoutTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CicleLayoutTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		819485011D08F27000169042 /* CicleLayoutTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CicleLayoutTestTests.m; sourceTree = "<group>"; };
 		819485031D08F27000169042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819485111D0900A200169042 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		819485121D0900A200169042 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				819484EB1D08F27000169042 /* AppDelegate.m */,
 				819484ED1D08F27000169042 /* ViewController.h */,
 				819484EE1D08F27000169042 /* ViewController.m */,
+				819485111D0900A200169042 /* CircleLayout.h */,
+				819485121D0900A200169042 /* CircleLayout.m */,
 				819484F01D08F27000169042 /* Main.storyboard */,
 				819484F31D08F27000169042 /* Assets.xcassets */,
 				819484F51D08F27000169042 /* LaunchScreen.storyboard */,
@@ -97,6 +104,7 @@
 		819484E71D08F27000169042 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8131C7811D0A45CC009CE8D2 /* iWatch.png */,
 				819484E81D08F27000169042 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -192,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				819484F71D08F27000169042 /* LaunchScreen.storyboard in Resources */,
+				8131C7821D0A45CC009CE8D2 /* iWatch.png in Resources */,
 				819484F41D08F27000169042 /* Assets.xcassets in Resources */,
 				819484F21D08F27000169042 /* Main.storyboard in Resources */,
 			);
@@ -212,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				819484EF1D08F27000169042 /* ViewController.m in Sources */,
+				819485131D0900A200169042 /* CircleLayout.m in Sources */,
 				819484EC1D08F27000169042 /* AppDelegate.m in Sources */,
 				819484E91D08F27000169042 /* main.m in Sources */,
 			);
@@ -402,6 +412,7 @@
 				819485081D08F27000169042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		819485091D08F27000169042 /* Build configuration list for PBXNativeTarget "CicleLayoutTestTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +421,7 @@
 				8194850B1D08F27000169042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
